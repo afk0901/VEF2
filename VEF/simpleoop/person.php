@@ -44,14 +44,15 @@ class person{
 
 	public function getgender(){
 
-		if($this->gender == 'kk' || $this->gender == 'kvk'){
+		if($this->gender == 'm' || $this->gender == 'f'){
 
 			echo $this->gender;
 
 		}
 
 		else{
-			echo 'No gender';
+			$this->gender = 'No gender';
+			echo $this->gender;
 		}
 	}
 

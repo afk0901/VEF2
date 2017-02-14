@@ -20,10 +20,7 @@ $this->members[] = $person->getname();
 //Skilar út öllum nöfnum af starfsmönnum
 public function staff(){
 
-	foreach ($this->members as $member) {
-		
-		echo $member.'   ';
-	}
+	return $this->members;
 
 }
 
