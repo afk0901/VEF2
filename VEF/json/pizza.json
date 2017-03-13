@@ -1,0 +1,12 @@
+{
+	"crust_type" : "original",
+
+	"toppings": ["cheese", "pepperoni", "garlic"],
+
+	"status": "cooking",
+
+	"customer": ["name", "phone"]
+
+
+}
+
